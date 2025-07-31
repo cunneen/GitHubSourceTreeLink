@@ -1,17 +1,22 @@
 // ==UserScript==
-// @name       GitHubSourceTreeLink
-// @namespace  https://github.com/cunneen
-// @version    1.0.0
-// @description  Adds a "Clone in SourceTree" link to github pages. Based on jamesgarfield/GitHubSourceTree.
-// @respository  https://github.com/cunneen/GitHubSourceTreeLink
-// @match https://github.com/*
-// @match https://*.github.com/*
-// @grant none
-// @licence MIT(3)
-// @copyright  2025+, Mike Cunneen
-// @run-at document-idle
+// @name					GitHubSourceTreeLink
+// @namespace			https://github.com/cunneen
+// @version				1.0.0
+// @description		Adds a "Clone in SourceTree" link to github pages. Based on jamesgarfield/GitHubSourceTree.
+// @respository		https://github.com/cunneen/GitHubSourceTreeLink
+// @match					https://github.com/*
+// @match					https://*.github.com/*
+// @grant					none
+// @license				MIT
+// @copyright			2025, Mike Cunneen
+// @run-at				document-idle
+// @homepageURL		https://github.com/cunneen/GitHubSourceTreeLink
+// @supportURL		https://github.com/cunneen/GitHubSourceTreeLink/issues
+// @updateURL			https://raw.githubusercontent.com/cunneen/GitHubSourceTreeLink/master/GitHubSourceTreeLink.user.js
+// @downloadURL		https://raw.githubusercontent.com/cunneen/GitHubSourceTreeLink/master/GitHubSourceTreeLink.user.js
 // ==/UserScript==
 
+/* jshint esversion: 11 */
 //Firefox/GreaseMonkey apppears to not like IIFEs, so use of a named function is required
 ghst();
 function ghst(){
