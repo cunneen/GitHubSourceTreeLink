@@ -9,8 +9,6 @@
 // @grant none
 // @licence MIT(3)
 // @copyright  2025+, Mike Cunneen
-// @downloadURL https://update.greasyfork.org/scripts/3789/GitHubSourceTree.user.js
-// @updateURL https://update.greasyfork.org/scripts/3789/GitHubSourceTree.meta.js
 // @run-at document-idle
 // ==/UserScript==
 
